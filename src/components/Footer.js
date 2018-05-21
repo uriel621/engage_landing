@@ -95,7 +95,7 @@ class Footer extends React.Component {
 			<div style={ style_inner_footer }>
 				<h3>Healthy food for all Angelenos</h3>
 				<div style={ style_list_container }>
-					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">Add a Location</Link></div>
+					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">About</Link></div>
 					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/faq">FAQ</Link></div>
 					{/* <div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">Resources</Link></div>
 					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">About</Link></div>
@@ -125,7 +125,7 @@ class Footer extends React.Component {
 				 <section style={ style_section_donate } id="donate">
 					<h2>Support this project</h2>
 					<p>We’re a volunteer-based project and would love your donation!
-							On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Food Oasis LA</em> with the email address <em>info@foodoasis.la</em></p>
+							On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Engage</em> with the email address <em>engagelosangeles@gmail.com</em></p>
 	
 					<br />
 					<br />
@@ -134,9 +134,9 @@ class Footer extends React.Component {
 				<br /><br /><br />
 				<section  style={ style_section_donate }id="mailing-list">
 					<h2>Subscribe to our mailing list</h2>
-					<p>Hear the latest from Food Oasis LA!</p>
+					<p>Hear the latest from Engage LA!</p>
 	
-					<form action="//foodoasis.us15.list-manage.com/subscribe/post?u=cc58c677c486e6ca3ca80afe6&amp;id=e77a0f6b67" method="post" target="_blank">
+					<form action="" method="post" target="_blank">
 						<p>
 							<label>
 								<input style={ style_section_email_input }  type="email" name="EMAIL" placeholder="Email" />
