@@ -72,7 +72,7 @@ class Header extends React.Component {
 					</a>
 				</div>
 				<div style={ style_logo }>
-					<Link to="/engage_landing"><img style={ style_logo_img } id="logo-img" src="https://avatars2.githubusercontent.com/u/30843315?s=400&u=f1e0919d48b568cae9d51f6895a0facb9260b59b&v=4" alt="ENGAGE" /></Link>
+					<Link to="/"><img style={ style_logo_img } id="logo-img" src="https://avatars2.githubusercontent.com/u/30843315?s=400&u=f1e0919d48b568cae9d51f6895a0facb9260b59b&v=4" alt="ENGAGE" /></Link>
 					<span id="header-title" style={ style_span_header }>Engage for All Angelenos</span>
 				</div>
 			</header>

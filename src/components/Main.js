@@ -113,7 +113,7 @@ class _Main extends React.Component {
     }
 
     scroll_event(){
-        if(window.location.pathname === '/engage_landing' && window.pageYOffset < 275){
+        if(window.location.pathname === '/' && window.pageYOffset < 275){
             document.querySelector('header').style.backgroundColor = "transparent";
             document.querySelector('main').style.paddingTop = "";    
             document.querySelector('#logo-img').style.display = "none";
@@ -121,7 +121,7 @@ class _Main extends React.Component {
             document.querySelector('#navigation').style.backgroundColor = "rgb(144, 194, 70)";
             
         }
-        else if(window.location.pathname === '/engage_landing') {
+        else if(window.location.pathname === '/') {
             document.querySelector('header').style.backgroundColor = "rgb(241, 241, 241)";
             document.querySelector('#logo-img').style.display = "block";
             document.querySelector('#header-title').style.display = "block";

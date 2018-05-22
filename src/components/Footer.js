@@ -95,8 +95,8 @@ class Footer extends React.Component {
 			<div style={ style_inner_footer }>
 				<h3>Healthy food for all Angelenos</h3>
 				<div style={ style_list_container }>
-					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">About</Link></div>
-					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/faq">FAQ</Link></div>
+					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/about">About</Link></div>
+					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/faq">FAQ</Link></div>
 					{/* <div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">Resources</Link></div>
 					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">About</Link></div>
 					<div onClick={ window.scroll(0,0) } style={ style_list }><Link style={ style_anchors } to="/engage_landing/about">Team</Link></div>

@@ -15,10 +15,10 @@ const Routes = () => {
       <div>
         <Header />
         <main>
-          <Route exact path="/engage_landing" component={ Home } />
-          <Route path="/engage_landing/about" component={ About } />
-          <Route path="/engage_landing/resources" component={ Resources } />
-          <Route path="/engage_landing/faq" component={ FAQ } />
+          <Route exact path="/" component={ Home } />
+          <Route path="/about" component={ About } />
+          <Route path="/resources" component={ Resources } />
+          <Route path="/faq" component={ FAQ } />
         </main>
         <Footer />           
       </div>
